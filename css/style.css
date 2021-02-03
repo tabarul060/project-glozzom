@@ -1,0 +1,196 @@
+.btn-primary {
+  background-color: #2FCCD0 !important; }
+
+h1, h2, h3, h4 {
+  font-family: sans-serif;
+  font-weight: 700; }
+
+.navbar .nav-link {
+  color: #fff !important; }
+
+.navbar .active > .nav-link {
+  color: #2FCCD0 !important;
+  border-bottom: 1px solid #2FCCD0; }
+
+#slider-section h4 {
+  color: #fff !important; }
+
+#slider-section .carousel-item {
+  height: 500px; }
+
+#slider-section .slider-one {
+  background: url("../asset/slide1.jpeg") no-repeat;
+  background-size: cover; }
+
+#slider-section .slider-two {
+  background: url("../asset/slide2.jpeg") no-repeat;
+  background-size: cover; }
+
+#slider-section .slider-three {
+  background: url("../asset/mountain.jpeg") no-repeat;
+  background-size: cover; }
+
+#homeicon .fas {
+  color: #2FCCD0;
+  font-size: 60px; }
+
+#homeicon .icon-hover:hover {
+  transition: 1s;
+  box-shadow: 2px 3px 5px #2FCCD0; }
+
+.carousel-indicators li {
+  box-sizing: content-box;
+  -ms-flex: 0 1 auto;
+  flex: 0 1 auto;
+  width: 30px;
+  height: 3px;
+  margin-right: 3px;
+  margin-left: 3px;
+  text-indent: -999px;
+  cursor: pointer;
+  background-color: red;
+  background-clip: padding-box;
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+  opacity: .5;
+  transition: opacity .6s ease; }
+
+#getstarted {
+  background: url("../asset/getstrated.jpeg") no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  min-height: 250px;
+  position: relative; }
+  #getstarted .dark-overlay {
+    background: rgba(0, 0, 0, 0.7);
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    position: absolute; }
+  #getstarted h3 {
+    color: #fff !important; }
+
+#home-vedio {
+  background: url("../asset/homevedio.jpeg") no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  min-height: 250px;
+  position: relative; }
+  #home-vedio .dark-overlay {
+    background: rgba(0, 0, 0, 0.7);
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    position: absolute; }
+  #home-vedio .fas {
+    font-size: 60px;
+    color: #FF0000; }
+
+#photo-gallery img {
+  min-height: 250px;
+  width: 100%; }
+
+#newsletter h2 {
+  color: #fff !important; }
+
+#footer-section {
+  background: #2FCCD0; }
+
+/*---====About Page=====---*/
+#about-header {
+  background: url("../asset/slide2.jpeg") no-repeat center;
+  background-size: cover;
+  min-height: 250px;
+  position: relative; }
+  #about-header h3 {
+    color: #fff !important; }
+  #about-header .dark-overlay {
+    background: rgba(0, 0, 0, 0.6);
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    position: absolute; }
+
+#about-info img {
+  width: 350px;
+  height: 350px; }
+
+#icon-box .fas {
+  font-size: 60px;
+  color: #fff !important; }
+
+#icon-box .fab {
+  font-size: 60px; }
+
+#icon-box h3 {
+  color: #fff; }
+
+#testimonial .slick-prev::before,
+#testimonial .slick-next::before {
+  color: #000; }
+
+/*======service page======*/
+#service-header {
+  background: url("../asset/slide3.jpeg") no-repeat center;
+  background-size: cover;
+  min-height: 250px;
+  position: relative; }
+  #service-header h3 {
+    color: #fff !important; }
+  #service-header .dark-overlay {
+    background: rgba(0, 0, 0, 0.8);
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    position: absolute; }
+
+#serviceAccordion h2 {
+  color: #fff !important; }
+
+/*==========Blog page=========*/
+#blog-header {
+  background: url("../asset/slide3.jpeg") no-repeat center;
+  background-size: cover;
+  min-height: 250px;
+  position: relative; }
+  #blog-header h3 {
+    color: #fff !important; }
+  #blog-header .dark-overlay {
+    background: rgba(0, 0, 0, 0.8);
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    position: absolute; }
+
+/*==========Contact page=========*/
+#contact-header {
+  background: url("../asset/slide3.jpeg") no-repeat center;
+  background-size: cover;
+  min-height: 250px;
+  position: relative; }
+  #contact-header h3 {
+    color: #fff !important; }
+  #contact-header .dark-overlay {
+    background: rgba(0, 0, 0, 0.8);
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    position: absolute; }
+
+@media (max-width: 578px) {
+  #getstarted {
+    min-height: 300px; } }
+
+@media (max-width: 480px) {
+  .carousel h4 {
+    font-size: 2.5rem; }
+  #getstarted {
+    min-height: 350px; }
+    #getstarted h3 {
+      font-size: 25px; } }
